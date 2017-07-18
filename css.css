@@ -1,0 +1,46 @@
+#red{
+background-color:plum;
+width:30vh;
+height:50vh;
+animation-name:bella;
+animation-duration:3s;
+animation-iteration-count:infinite;
+position:absolute;
+animation-direction: alternate;
+border-radius:100%;
+}
+
+@keyframes bella {
+0% {
+    top:5px;
+    left:5px;
+}
+
+50% {
+    top:30px;
+    left:5px;
+
+}
+
+100% {
+    top:5px;
+    left:5px;
+}
+}
+
+#blue{
+background-color:lightblue;
+width:30vh;
+height:50vh;
+border-radius: 100%;
+
+}
+
+#green{
+    background-color:lightseagreen;
+    width:30vh;
+    height:50vh;
+    border-radius:100%;
+
+
+}
