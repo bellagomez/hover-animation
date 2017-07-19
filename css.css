@@ -1,46 +1,70 @@
 #red{
-background-color:plum;
-width:30vh;
-height:50vh;
-animation-name:bella;
-animation-duration:3s;
-animation-iteration-count:infinite;
-position:absolute;
-animation-direction: alternate;
-border-radius:100%;
-}
-
-@keyframes bella {
-0% {
-    top:5px;
-    left:5px;
-}
-
-50% {
-    top:30px;
-    left:5px;
-
-}
-
-100% {
-    top:5px;
-    left:5px;
-}
-}
-
-#blue{
-background-color:lightblue;
-width:30vh;
-height:50vh;
-border-radius: 100%;
-
-}
-
-#green{
-    background-color:lightseagreen;
+    background-color:rgb(204,255,255);
     width:30vh;
     height:50vh;
     border-radius:100%;
+    position: absolute;
 
-
+    animation-name:bella;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
 }
+#red:hover{
+    background: lightblue;
+}
+
+
+
+#blue{
+background-color:cyan;
+width:30vh;
+height:50vh;
+border-radius: 100%;
+}
+#blue:hover{
+    background: lightcoral;
+}
+
+
+#green{
+    background-color:rgb(51,0,0);
+    width:30vh;
+    height:50vh;
+    border-radius:100%;
+    animation-name: ColorChange;
+    animation-duration: 5s;
+}
+#green:hover{
+    background:rgb(102,217,255);
+}
+
+
+
+
+@keyframes bella {
+    0% {
+        top:5px;
+        left:5px;
+    }
+
+    50% {
+        top:30px;
+        left:5px;
+
+    }
+
+    100% {
+        top:5px;
+        left:5px;
+    }
+}
+
+@keyframes ColorChange {
+from {background-color:blanchedalmond };
+to {background-color: burlywood};
+}
+
+
+
+
